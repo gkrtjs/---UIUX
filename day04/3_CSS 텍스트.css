@@ -1,0 +1,70 @@
+
+/* 누구를 { 어떻게 : 변경할값; }
+     1. 누구를/선택자
+         1. 마크업명 2.class 3.id
+    텍스트 관련 스타일 속성
+         1. font-family : 글꼴(pc에 설치된 글골만 가능) - 별도설치 O 
+            - 웹폰트( 인터넷을 이용한 웹으로부터 글골을 가져옴 - 별도설치 X)
+            - 폰트/글골 : 상업적으로 저작권 
+               - 상업적으로 무료 폰트
+                  1. 구글폰트 (영어가 많음) : https://fonts.google.com/
+                  2. 배민폰트 (한국)
+                  3. 눈누 : https://noonnu.cc/
+*/
+h3{ font-family: 굴림;}
+
+@font-face { /*눈누 홈페이지에서 원하는 폰트의 웹폰트 코드 복사/붙여넣기 */
+    font-family: 'YEONGJUPunggiGinsengTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/YEONGJUPunggiGinsengTTF.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* 웹폰트 적용하기 (거래처pc에 폰트가 없어서 웹폰트적용 하면 폰트적용가능*/
+h2{font-family: 'YEONGJUPunggiGinsengTTF';}
+
+/* 글꼴크기  px픽셀 : 고정크기 */
+p{font-size: 12px;}
+
+/* .class 명 { 속성명 : 값; }*/
+.teacher_name{font-size: 20px;
+/*font-weight: bold;*/ /*진하게*/
+/*font-weight: lighter;*/ /*연하게 */
+/*font-weight: bolder;*/ /*조금진하게*/
+/*font-weight: 900; */ /* 100~900 400보통 900진하게*/
+
+/* 글꼴 기울이기 */
+/*font-style: italic; */ /*기울기*/
+/*direction: ltr */ /* 왼쪽부터 작성*/
+/*direction: rtl; */ /* 오른쪽부터 작성*/
+
+/* 텍스트의 수평 정렬*/
+text-align: left;   /*왼쪽정렬*/
+/*text-align: right; */ /*오른쪽 정렬*/
+/*text-align: center; */ /*가운데 정렬*/
+
+/* 텍스트 들여쓰기 */
+text-indent: 10cm;
+
+/* 텍스트 대소문자로 변환하기 */
+text-transform: capitalize; /*첫글자를 대문자로 변환*/
+text-transform: uppercase; /*대문자로 변환*/
+text-transform: lowercase; /*소문자로 변환*/
+text-transform: none; /* 변환없음 */
+
+/* 자간 : 글자 사이의 간격 */
+letter-spacing: 5px;
+
+/* 어간 : 단어와 단어 사이의 간격*/
+word-spacing: 15px;
+
+/* 줄간격 (%)로 기준함 주로 160%~180% 사이로 기준*/
+line-height: 180%;
+
+/* 밑줄 : */
+text-decoration: underline; /*밑줄*/
+text-decoration: line-through; /*취소선*/
+text-decoration: overline; /*윗줄*/
+text-decoration: none; /*줄없음*/
+
+} 
+
