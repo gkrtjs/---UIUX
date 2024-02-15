@@ -1,0 +1,29 @@
+
+div{
+    border: solid red 1px;
+    margin: 20px;
+    background-color: aqua;
+}
+
+span{
+    border: solid 2px greenyellow;
+    background-color: orange;
+}
+.s1{
+    display: inline; /*인라인 : span 기본값*/
+    width: 200px; height: 200px; /*적용 불가 */
+}
+
+.s2{
+    display: block; /* 블록 */
+    width: 200px; height: 200px; /*적용 가능*/
+}
+
+.s3{
+    display:  inline-block; 
+    width: 200px;   height: 200px;
+}
+
+.s4{
+    display: none; "숨기기"
+}
