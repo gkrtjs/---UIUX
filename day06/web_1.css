@@ -1,0 +1,89 @@
+
+/* #wrap : HTML에서 id가 "wrap" 인 마크업을 선택*/
+*{
+    /*구역 확인용*/
+    border: 1px solid white;
+    padding: 10px;
+    list-style: none; /*글머리 타입 : 없음*/
+    padding: 0;
+    margin: 0;
+    }
+
+#wrap{ }
+#header{
+     /* 내가 가로 배치할 대상의 부모요소한테 flex 요소 사용 */
+    display: flex; /*p. 191 자식요소들을 배치하는 방법 : 가로배치 */
+    justify-content: space-between;/* p. 193 flex 사용시 자식 요소들의 배치 정렬하는 방법 */
+    width: 1280px; /*구역사이즈*/
+    margin: 0 auto; /*바깥여백 위아래 여백0 왼쪽오른쪽 여백 오토*/
+
+}
+#left_header > img{width: 80px;}  /*부모선택자 ">" 자식선택자 */
+#right_header/*{background-color:bisque;}*/
+
+#top_menu{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px; /*글자크기*/
+}
+#top_menu > li{
+    margin-left: 15px; /*왼쪽 바깥 여백*/
+}
+
+#main_menu > li{
+    margin-left: 60px;
+}
+
+#main_menu{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px
+
+}
+
+#content{background-color: ;
+    display: flex;
+
+    width: 1280px;
+    margin: 50px auto;
+}
+#side_bar{
+    background-color:
+    width: 240px;
+}
+#side_bar > h3{
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+
+#side_bar li{
+    padding: 12px;
+    border-bottom: 2px solid #eeeeee; /*헥사코드*/
+
+}
+
+
+
+
+#main_bar{
+    background-color: ;
+    width: 1040px;
+}
+
+#main_content{
+    width: 1040px;
+    margin: 30px;
+}
+
+#main_content h3{
+    font-size: 20px;
+    border-bottom: 2px solid #eeeeee;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#footer{background-color: aqua;}
