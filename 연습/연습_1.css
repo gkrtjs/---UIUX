@@ -1,0 +1,81 @@
+*{
+padding: 0px;
+margin: 0px;
+    
+    list-style-type: none; /*글머리 타입 x */ 
+}
+
+#wrap{ }
+#header{ 
+   
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 30px auto;/* 바깥여백 : 위아래 여백0 왼쪽오른쪽 여백 자유*/
+}
+#topmenu{ 
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+}
+#topmenu > li{
+    margin-left: 15px;
+}
+#mainmenu > li {
+    margin-left: 30px;
+}
+#mainmenu{
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+#left_header{}
+#left_header > img{ width: 110px;}
+
+#right_header{}
+
+#content{
+    background-color;
+    display: flex;
+    width: 1280px;
+    margin: 50px auto;
+}
+
+#side_bar{
+width: 240px;
+}
+#side_bar > h3 {
+    background-color: gray;
+    font-size: 20px;
+    padding: 15px;
+}
+#side_bar li{
+    padding: 15px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#main_content{
+width: 1040px;
+margin-left: 30px;
+}
+
+
+#main_content > h3{
+    font-size: 30px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#main_bg{
+    width: 100%;
+    
+}
+#footer{ background-color:  rgb(43, 42, 42);
+display: flex;
+justify-content: space-between;
+width: 1280px;
+margin: 0 auto;
+}

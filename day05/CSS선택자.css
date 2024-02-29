@@ -6,7 +6,7 @@
 h1{ color: blue; }
 
 /* class 선택자*/
-.box1{color: green;}
+.box1{color: rgb(132, 190, 132);}
 .box2{background-color: pink;}
 
 /* 3. id 선택자 */
