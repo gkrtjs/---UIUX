@@ -1,32 +1,38 @@
+
 @font-face {
-    font-family: 'TTHakgyoansimMoheomgaB';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMoheomgaB.woff2') format('woff2');
-    font-weight: 700;
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
     font-style: normal;
 }
 
+
+/*기본적으로 적용된 마크업들의 여백 제거*/
 *{
-    padding: 0px;
+    padding: 0%;
     margin: 0px;
 }
 body{
-    background-color: aqua; /*배경색*/
+    background-color: rgb(159, 241, 241); /*배경색*/
 }
 
 h1{
+    font-family: 'TAEBAEKfont';
     font-size: 20px; /*글꼴크기*/
     border: 3px solid white; /*테두리*/
     border-radius: 30px; /*둥근 모서리*/
-    width: 300px; /* 가로 구역 사이즈*/
+    width: 600px; /* 가로 구역 사이즈*/
     margin: 30px auto; /*위아래 30px 왼/오른쪽 오토*/
     padding: 10px; /*왼쪽여백*/
+    text-align: center;
 }
 p, ul{
+    font-family: 'TAEBAEKfont';
     text-align: center; /*내용물 가운데 정렬*/
     margin: 20px; /*바깥여백*/
 }
 p > img { /*자손선택지*/
-    border-radius: 50%;
+    border-radius: 50%; height: 10cm;
 }
 a{
     display: block;
